@@ -1,14 +1,19 @@
 #include <iostream>
 #include "veiculo.h"
+#include "carro.h"
 
 using namespace std;
 
 int main()
 {
-//    cout << "Hello world!" << endl;
-//    Veiculo var;
+
     Veiculo *p = new Veiculo();
 
-    delete p;
+    p->setAceleracao(1000);
+    p->setRodas(4);
+    p->setCor(10);
+
+    Carro *c = new Carro();
+//    delete p;
     return 0;
 }

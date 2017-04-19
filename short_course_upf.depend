@@ -1,0 +1,14 @@
+# depslib dependency file v1.0
+1492638545 source:c:\users\148894\codeblocks_project\short_course_upf\main.cpp
+	<iostream>
+	"veiculo.h"
+	"carro.h"
+
+1492638452 c:\users\148894\codeblocks_project\short_course_upf\include\veiculo.h
+
+1492637956 source:c:\users\148894\codeblocks_project\short_course_upf\src\carro.cpp
+	"Carro.h"
+
+1492638077 c:\users\148894\codeblocks_project\short_course_upf\include\carro.h
+	"veiculo.h"
+
